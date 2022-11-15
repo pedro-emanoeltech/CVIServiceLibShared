@@ -1,11 +1,9 @@
-﻿using CVIServiceLibShared.App.Response;
-using CVIServiceLibShared.Constants.Enums;
-using CurriculoVitaeInteligenteDomain.Entities;
+﻿using CVIServiceLibShared.Constants.Enums;
 using System;
 
 namespace CVIServiceLibShared.App.Response
 {
-   public  class VagaResponse : BaseResponse
+    public  class VagaResponse : BaseResponse
     {
         public Guid? PerfilId { get; set; }
         public Guid? CidadeId { get; set; }
@@ -20,12 +18,12 @@ namespace CVIServiceLibShared.App.Response
         public ModalidadeTrabalho? ModalidadeTrabalho { get; set; }
         public string? Url { get; set; }
 
-        public Contato? Contato { get; set; }
-        public Cidade? Cidade { get; set; }
-        public Estado? Estado { get; set; }
+        public ContatoResponse? Contato { get; set; }
+        public CidadeResponse? Cidade { get; set; }
+        public EstadoResponse? Estado { get; set; }
 
 
         //relacionamento
-        public Perfil? Perfil { get; set; }
+        public PerfilResponse? Perfil { get; set; }
     }
 }

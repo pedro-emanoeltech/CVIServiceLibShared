@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CVIServiceLibShared.Constants.Enums;
+using System;
 
 namespace CVIServiceLibShared.App.Request
 {

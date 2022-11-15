@@ -1,10 +1,4 @@
-﻿using CVIServiceLibShared.App.Response;
-using CurriculoVitaeInteligenteDomain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace CVIServiceLibShared.App.Response
 {
@@ -15,6 +9,6 @@ namespace CVIServiceLibShared.App.Response
         public string? UF { get; set; }
 
         //navegacao
-        public Pais? Pais { get; set; }
+        public PaisResponse? Pais { get; set; }
     }
 }

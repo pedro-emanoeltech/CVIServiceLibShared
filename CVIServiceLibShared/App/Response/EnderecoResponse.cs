@@ -21,8 +21,8 @@ namespace CVIServiceLibShared.App.Response
 
 
         //relacionamento
-        public Cidade? Cidade { get; set; }
-        public Estado? Estado { get; set; }
+        public CidadeResponse? Cidade { get; set; }
+        public EstadoResponse? Estado { get; set; }
 
     }
 }

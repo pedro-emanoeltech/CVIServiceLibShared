@@ -1,11 +1,9 @@
-﻿using CVIServiceLibShared.App.Request;
-using CVIServiceLibShared.Constants.Enums;
-using CurriculoVitaeInteligenteDomain.Entities;
+﻿using CVIServiceLibShared.Constants.Enums;
 using System;
 
 namespace CVIServiceLibShared.App.Request
 {
-   public  class VagaRequest : BaseRequest
+    public  class VagaRequest : BaseRequest
     {
 
         public Guid? PerfilId { get; set; }
@@ -21,9 +19,9 @@ namespace CVIServiceLibShared.App.Request
 
         public ModalidadeTrabalho? ModalidadeTrabalho{ get; set; }
 
-        public Contato? Contato { get; set; }
-        public Cidade? Cidade { get; set; }
-        public Estado? Estado { get; set; }
+        public ContatoRequest? Contato { get; set; }
+        public CidadeRequest? Cidade { get; set; }
+        public EstadoRequest? Estado { get; set; }
 
     }
 }

@@ -1,12 +1,5 @@
-﻿using CVIServiceLibShared.App.Response;
-using CVIServiceLibShared.Constants.Enums;
-using CurriculoVitaeInteligenteDomain.Entities;
+﻿using CVIServiceLibShared.Constants.Enums;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static CVIServiceLibShared.Constants.Enums.Classificacoes;
 
 namespace CVIServiceLibShared.App.Response
 {
@@ -21,9 +14,9 @@ namespace CVIServiceLibShared.App.Response
         public Guid? CidadeId { get; set; }
         public Guid? SegmentoId { get; set; }
 
-        public Cargo? Cargo { get; set; }
-        public Segmento? Segmento { get; set; }
-        public Contato? Contato { get; set; }
-        public Cidade? Cidade { get; set; }
+        public CargoResponse? Cargo { get; set; }
+        public SegmentoResponse? Segmento { get; set; }
+        public ContatoResponse? Contato { get; set; }
+        public CidadeResponse? Cidade { get; set; }
     }
 }

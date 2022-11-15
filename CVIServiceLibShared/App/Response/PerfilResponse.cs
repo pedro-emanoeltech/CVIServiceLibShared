@@ -19,20 +19,20 @@ namespace CVIServiceLibShared.App.Response
         public Guid? SegmentoId { get; set; }
         //// Relacionamento
 
-        public Segmento? Segmento { get; set; }
-        public Nacionalidade? Nacionalidade { get; set; }
-        public Escolaridade? Escolaridade { get; set; }
-        public Endereco? Endereco { get; set; }
+        public SegmentoResponse? Segmento { get; set; }
+        public NacionalidadeResponse? Nacionalidade { get; set; }
+        public EscolaridadeResponse? Escolaridade { get; set; }
+        public EnderecoResponse? Endereco { get; set; }
 
-        public IList<Contato>? Contato { get; set; }
+        public IList<ContatoResponse>? Contato { get; set; }
 
-        public Objetivo? Objetivo { get; set; }
+        public ObjetivoResponse? Objetivo { get; set; }
 
-        public Idioma? Idioma { get; set; }
+        public IdiomaResponse? Idioma { get; set; }
 
-        public IList<HistoricoProfissional>? HistoricoProfissional { get; set; }
+        public IList<HistoricoProfissionalResponse>? HistoricoProfissional { get; set; }
 
-        public IList<CursoFormacaoAcademica>? CursoFormacaoAcademica { get; set; }
+        public IList<CursoFormacaoAcademicaResponse>? CursoFormacaoAcademica { get; set; }
 
 
 

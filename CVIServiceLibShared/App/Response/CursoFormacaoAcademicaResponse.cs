@@ -16,8 +16,8 @@ namespace CVIServiceLibShared.App.Response
         public string? DescricaoCurso { get; set; }
 
 
-        public Curso? Curso { get; set; }
-        public Cidade? Cidade { get; set; }
+        public CursoResponse? Curso { get; set; }
+        public CidadeResponse? Cidade { get; set; }
 
 
 
