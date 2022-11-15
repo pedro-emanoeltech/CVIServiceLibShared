@@ -84,10 +84,6 @@
     <Compile Include="App\Response\VagaResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-<PropertyGroup>
-  <Nullable>enable</Nullable>
-  <LangVersion>8.0</LangVersion>
-</PropertyGroup>
   <ItemGroup>
     <Folder Include="Domain\" />
   </ItemGroup>
