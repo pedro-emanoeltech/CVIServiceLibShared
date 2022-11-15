@@ -1,6 +1,0 @@
-C:\Repository\Services\CVIServiceLibShared\CVIServiceLibShared\obj\Debug\CVIServiceLibShared.csproj.AssemblyReference.cache
-C:\Repository\Services\CVIServiceLibShared\CVIServiceLibShared\obj\Debug\CVIServiceLibShared.csproj.CoreCompileInputs.cache
-C:\Repository\Services\CVIServiceLibShared\CVIServiceLibShared\bin\Debug\CVIServiceLibShared.dll
-C:\Repository\Services\CVIServiceLibShared\CVIServiceLibShared\bin\Debug\CVIServiceLibShared.pdb
-C:\Repository\Services\CVIServiceLibShared\CVIServiceLibShared\obj\Debug\CVIServiceLibShared.dll
-C:\Repository\Services\CVIServiceLibShared\CVIServiceLibShared\obj\Debug\CVIServiceLibShared.pdb
