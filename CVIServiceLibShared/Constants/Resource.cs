@@ -27,6 +27,7 @@ namespace CVIServiceLibShared.Constants
        public const string  PERFIL = "perfiL";
        public const string  SEGMENTO = "segmento";
        public const string  VAGA = "vaga  ";
-        public const string LOGIN = "login  ";
+       public const string  LOGIN = "login  ";
+       public const string  TOKEN = "token  ";
     }
 }
