@@ -6,10 +6,10 @@ namespace CVIServiceLibShared.Constants.Enums
     {
      
     }
-    public enum TipoPerfil
+    public enum TipoConta
     {
-        CPF = 1,
-        CNPJ = 2
+        Fisica = 1,
+        Juridica = 2
     }
     public enum Status
     {

@@ -8,7 +8,6 @@ namespace CVIServiceLibShared.App.Response
     {
         public string? Nome { get; set; }
         public string? Apelido { get; set; }
-        public TipoPerfil? TipoPerfil { get; set; }
         public Int64? CPF { get; set; }
         public Int64? CNPJ { get; set; }
         public int? Idade { get; set; }

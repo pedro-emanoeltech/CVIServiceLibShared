@@ -7,7 +7,7 @@ namespace CVIServiceLibShared.App.Request
         public string? Email { get; set; }
 
         public string? Senha { get; set; }
-
+        public TipoConta? TipoConta { get; set; }
         public Status Status { get; set; }
     }
 }
