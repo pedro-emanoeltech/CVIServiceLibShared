@@ -5,9 +5,9 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
-	
-  <ItemGroup>
-    <Folder Include="Domain\" />
-  </ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Domain\" />
+	</ItemGroup>
 
 </Project>
