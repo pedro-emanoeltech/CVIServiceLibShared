@@ -24,7 +24,7 @@ namespace CVIServiceLibShared.Constants
        public const string  NACIONALIDADE  = "nacionalidade";
        public const string  OBJETIVO  = "objetivo";
        public const string  PAIS  = "pais";
-       public const string  PERFIL = "perfiL";
+       public const string  PERFIL = "perfil";
        public const string  SEGMENTO = "segmento";
        public const string  VAGA = "vaga";
        public const string  LOGIN = "login";

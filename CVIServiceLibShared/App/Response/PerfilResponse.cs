@@ -6,6 +6,7 @@ namespace CVIServiceLibShared.App.Response
 {
     public class PerfilResponse : BaseResponse
     {
+        public Guid ContaId { get; set; }
         public string? Nome { get; set; }
         public string? Apelido { get; set; }
         public Int64? CPF { get; set; }
