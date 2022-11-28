@@ -8,6 +8,7 @@ namespace CVIServiceLibShared.App.Response
     {
         public Guid ContaId { get; set; }
         public string? Nome { get; set; }
+        public string? Bio { get; set; }
         public string? Apelido { get; set; }
         public Int64? CPF { get; set; }
         public Int64? CNPJ { get; set; }
