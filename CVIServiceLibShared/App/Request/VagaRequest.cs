@@ -18,10 +18,5 @@ namespace CVIServiceLibShared.App.Request
         public string? Url { get; set; }
 
         public ModalidadeTrabalho? ModalidadeTrabalho{ get; set; }
-
-        public ContatoRequest? Contato { get; set; }
-        public CidadeRequest? Cidade { get; set; }
-        public EstadoRequest? Estado { get; set; }
-
     }
 }
