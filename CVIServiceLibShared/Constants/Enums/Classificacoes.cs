@@ -98,8 +98,8 @@ namespace CVIServiceLibShared.Constants.Enums
     }
     public enum ModalidadeTrabalho
     {
-        homeOffice = 1,
-        híbrido = 2,
+        HomeOffice = 1,
+        Híbrido = 2,
         Presencial = 3
     }
     public enum Idiomas
